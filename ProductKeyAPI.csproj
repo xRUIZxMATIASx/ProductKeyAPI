@@ -12,9 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Referencias a las DLL externas -->
     <Reference Include="KeySecurity">
-      <HintPath>lib/KeySecurity.dll</HintPath>
+        <HintPath>lib/KeySecurity.dll</HintPath>
     </Reference>
-  </ItemGroup>
+    <None Update="lib/KeySecurity.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
 </Project>
