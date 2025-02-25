@@ -16,8 +16,5 @@
     <Reference Include="KeySecurity">
       <HintPath>lib/KeySecurity.dll</HintPath>
     </Reference>
-    <Reference Include="Models">
-      <HintPath>lib/Models.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>
