@@ -15,8 +15,5 @@
     <Reference Include="KeySecurity">
         <HintPath>lib/KeySecurity.dll</HintPath>
     </Reference>
-    <None Update="lib/KeySecurity.dll">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
 </ItemGroup>
 </Project>
